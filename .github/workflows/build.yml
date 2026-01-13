@@ -1,4 +1,4 @@
-name: Update basketball.ics
+name: Update calendar.ics
 
 on:
   schedule:
@@ -26,6 +26,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add basketball.ics
-          git commit -m "Update basketball.ics" || echo "No changes"
+          git add calendar.ics
+          git commit -m "Update calendar.ics" || echo "No changes"
           git push
