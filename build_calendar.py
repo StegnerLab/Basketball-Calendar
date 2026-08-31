@@ -12,7 +12,7 @@ KALM_URL = f"{BASE_HOST}/servlet/KalenderDienst"
 # >>> Deine Teams (Teamname, Liga-ID)
 TARGETS = [
     ("TSV Grombühl 2", "55570"),
-    ("TSV Grombühl U18", "52205"),
+    ("TSV Grombühl", "52205"),
     ("TG Veitshöchheim", "56005"),
 ]
 
