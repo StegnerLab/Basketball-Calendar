@@ -21,7 +21,7 @@ SPT = "-1"  # alle Spieltage
 # --- helpers ---
 VEVENT_RE = re.compile(r"BEGIN:VEVENT\r?\n.*?\r?\nEND:VEVENT\r?\n", re.DOTALL)
 
-# Dropdown: <option value="425276"SELECTED>TSV Grombühl 2</option>
+# Dropdown: <option value="55570"SELECTED>TSV Grombühl 2</option>
 OPT_RE = re.compile(r'<option\s+value="([^"]+)"[^>]*>(.*?)</option>', re.IGNORECASE | re.DOTALL)
 
 def norm(s: str) -> str:
