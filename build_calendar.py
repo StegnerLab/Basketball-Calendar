@@ -12,8 +12,8 @@ KALM_URL = f"{BASE_HOST}/servlet/KalenderDienst"
 # >>> Deine Teams (Teamname, Liga-ID)
 TARGETS = [
     ("TSV Grombühl 2", "55570"),
-    ("TSV Grombühl", "52205"),
-    ("TG Veitshöchheim", "56005"),
+    ("TSV Grombühl", "56005"),
+    ("TG Veitshöchheim", "54351"),
 ]
 
 SPT = "-1"  # alle Spieltage
